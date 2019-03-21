@@ -14,20 +14,20 @@ function divide(a,b) {
   return a/b
 }
 
-function inc(n) {
-  return n+=1
+function inc(a) {
+  return a+=1
 }
 
-function dec(n) {
-  return n-=1
+function dec(a) {
+  return a-=1
 }
 
-function makeInt(n) {
-  var Int = parseInt('n',10)
+function makeInt(a) {
+  var Int = parseInt('a',10)
   return Int
 }
 
-function preserveDecimal(n) {
-  var Dec = parseFloat('n',10)
+function preserveDecimal(a) {
+  var Dec = parseFloat('a',10)
   return Dec
 }

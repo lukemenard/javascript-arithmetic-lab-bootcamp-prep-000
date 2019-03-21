@@ -22,12 +22,12 @@ function dec(a) {
   return a-=1
 }
 
-function makeInt(a) {
-  Int = parseInt(a,10)
+function makeInt(n) {
+  Int = parseInt(n,10)
   return Int
 }
 
-function preserveDecimal(a) {
-  Dec = parseFloat(a,10)
+function preserveDecimal(n) {
+  Dec = parseFloat(n,10)
   return Dec
 }

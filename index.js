@@ -23,11 +23,11 @@ function dec(a) {
 }
 
 function makeInt(a) {
-  var Int = parseInt('a',10)
+  Int = parseInt('a',10)
   return Int
 }
 
 function preserveDecimal(a) {
-  var Dec = parseFloat('a',10)
+  Dec = parseFloat('a',10)
   return Dec
 }
